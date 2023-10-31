@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FEA_Abaqus_Web</title>
+</head>
+<body>
+<script>
+    var app = "https://kitware.github.io/paraview-glance/app";
+    var datadir = "https://raw.githubusercontent.com/cc288/Ansys_Paraview_Web/main/";
+    var file = "file1.vtk";
+
+    document.write("<iframe src='" + app + "?name=" + file + "&url=" + datadir + file + "' id='iframe' width='1100' height='900'></iframe>");
+
+</script>
+</body>
+</html>
